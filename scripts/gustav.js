@@ -175,10 +175,11 @@ $(function() {
     data: barChartData,
     options: barChartOptions   
   });
-  PerfektStart("MM2DPsr5664vCMZP3LiWhxwimmfvohUeHW.test", "c=MAZA", 2, 0);
+  PerfektStart("MM2DPsr5664vCMZP3LiWhxwimmfvohUeHW", "c=MAZA,zap=MAZA", -1, 5);
   console.log(wallet);
   stopLogger();
   startLogger();
   $("#start").text("Stop");
   $('#wallet').prop("disabled", true);
 });
+
